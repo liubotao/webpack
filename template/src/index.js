@@ -2,8 +2,6 @@ import Vue from 'vue';
 import ElementUI from 'element-ui';
 import 'font-awesome/css/font-awesome.css';
 import '@cloudux/noah-theme/lib/index.css';
-import './components';
-import './components/filter';
 import App from './App';
 import Store from './store';
 import router from './routers';
