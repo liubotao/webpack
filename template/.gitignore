@@ -1,21 +1,9 @@
 .DS_Store
+.idea/
 node_modules/
-/dist/
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-{{#unit}}
-/test/unit/coverage/
-{{/unit}}
-{{#e2e}}
-/test/e2e/reports/
+dist/
+npm-debug.log
+test/
+test/unit/coverage
+test/e2e/reports
 selenium-debug.log
-{{/e2e}}
-
-# Editor directories and files
-.idea
-.vscode
-*.suo
-*.ntvs*
-*.njsproj
-*.sln
