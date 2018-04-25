@@ -23,11 +23,4 @@ window.vm = new Vue({
   router,
   render: h => h(App),
 });
-vm.clearZk = function clear(url) {
-  this.$message.confirmMessage('确定清除zk吗?', () => {
-    this.$http.post(url, '').then(() => {
-      this.$message.successNotify('清除zk操作成功，请稍后刷新页面获取最新数据。');
-    })
-    .catch(() => { this.$http.buildErrorHandler('清除zk请求失败！'); });
-  });
-};
+
